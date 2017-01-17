@@ -30,7 +30,8 @@ void setup() {
     }
 
   }
-  file.close();
+  f.close(); // Object is 'f' not 'file'
+  //file.close(); //ERROR
 }
 
 void loop() {
